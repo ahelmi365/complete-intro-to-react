@@ -1,0 +1,14 @@
+.pet-card{
+    padding:  1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.pet-img img{
+    width: 200px;
+    height: 100%;
+}
+
+p{
+    margin: 0 !important;
+}

@@ -1,0 +1,17 @@
+.loading-pane {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+  }
+.loader {
+    font-size: 100px;
+    animation: spin 1s linear infinite;
+    height: 132px;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
