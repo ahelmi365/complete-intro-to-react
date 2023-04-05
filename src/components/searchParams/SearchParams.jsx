@@ -5,8 +5,8 @@ import "./SearchParams.css";
 import useBreedList from "./useBreedList.js";
 import fetchSearch from "./fetchSearch";
 
-import LoadingScreen from "./LoadingScreen";
-import Results from "./Results";
+import LoadingScreen from "../../LoadingScreen";
+import Results from "../results/Results";
 
 export default function SearchParams() {
   const [animal, setAnimal] = useState("");

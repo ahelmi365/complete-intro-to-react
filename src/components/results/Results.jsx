@@ -1,6 +1,6 @@
 import React from "react";
-import Pet from "./Pet";
-import "./Result.css"
+import Pet from "../pet/Pet";
+import "./Results.css"
 export default function Results({ pets }) {
   return (
     <div className="search-results">
